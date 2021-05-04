@@ -1,0 +1,177 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.msg1
+{
+    box-shadow: 0px 0px 7px 0px #000;
+    border-radius: 10%;
+    color: #fff;
+    background-color: rgb(255, 69, 69);
+}
+
+.card {
+    border-radius: 10px;
+    border: 2.5px solid rgb(255, 69, 69);
+    box-shadow: 0px 0px 15px 0px #fff;
+}
+
+
+.imglogo {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.imglogo:hover {
+    transform: rotateX(360deg);
+    transition: 3s;
+    transition-delay: 0.5s;
+}
+
+
+#email {
+    border-radius: 40px;
+    border: 2.5px solid rgb(255, 69, 69);
+    transition: 1s;
+}
+
+#email {
+    box-shadow: none;
+}
+
+#email:hover {
+    border: 2.5px solid #000;
+}
+
+#senha {
+    border-radius: 40px;
+    border: 2.5px solid rgb(255, 69, 69);
+    transition: 0.9s;
+}
+
+#senha {
+    box-shadow: none;
+}
+
+#senha:hover {
+    border: 2.5px solid #000;
+}
+
+.btn_entrar {
+  
+    border-radius: 40px;
+    border: 2.5px solid #000;
+    transition: 0.9s;
+}
+
+.btn_entrar {
+    box-shadow: none;
+}
+
+.btn_entrar:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2.5px solid rgb(255, 69, 69);
+}
+
+body{
+    background:linear-gradient(#fff,rgb(255, 69, 69)) no-repeat ;
+
+}
+
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) 
+{
+
+
+.card{
+width: 85%;
+
+}
+
+.imglogo{
+    width: 70%;
+}
+
+.form-label{
+    font-size: 13.5px;
+}
+
+input{
+height: 0%;
+}
+
+.btn_entrar{
+    font-size: 13.5px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+}
+
+.cadastra{
+font-size: 13.5px;
+}
+
+.container{
+    padding-top: 5%;
+    padding-bottom: 25%;
+}
+}
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+
+    .card{
+        width: 65%;
+        margin-top: 50%;
+        }
+
+        .imglogo{
+            width: 50%;
+        }
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+
+    .card{
+        width: 62.5%;
+        margin-top: 50%;
+        }
+
+        .imglogo{
+            width: 50%;
+        }
+  
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+
+    .card{
+        width: 52.5%;
+        margin-top: 50%;
+        }
+
+        .imglogo{
+            width: 50%;
+        }
+
+   
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px)
+{
+    .card{
+        width: 45%;
+        margin-top: 50%;
+        }
+
+        .imglogo{
+            width: 50%;
+        }
+}
